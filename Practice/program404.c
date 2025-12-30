@@ -1,0 +1,56 @@
+//  singly Circular Linked List
+/*----------------------------------------------------------------------------*/
+#include <stdio.h>
+#include <stdlib.h>
+/*----------------------------------------------------------------------------*/
+#pragma pack(1)
+struct node
+{
+    int Data;
+    struct node *next;
+};
+
+typedef struct node NODE;
+typedef struct node *PNODE;
+typedef struct node **PPNODE;
+/*----------------------------------------------------------------------------*/
+void InsrtFirst(PPNODE first, PPNODE last, int no)
+{
+}
+/*----------------------------------------------------------------------------*/
+void InsertLast(PPNODE first, PPNODE last, int no)
+{
+}
+/*----------------------------------------------------------------------------*/
+void InsertAtPos(PPNODE first, PPNODE last, int no, int pos)
+{
+}
+/*----------------------------------------------------------------------------*/
+void DeleteFirst(PPNODE first, PPNODE last)
+{
+}
+/*----------------------------------------------------------------------------*/
+void DeleteLast(PPNODE first, PPNODE last)
+{
+}
+/*----------------------------------------------------------------------------*/
+void DeleteAtPos(PPNODE first, PPNODE last, int pos)
+{
+}
+/*----------------------------------------------------------------------------*/
+void Display(PNODE first, PNODE last)
+{
+}
+/*----------------------------------------------------------------------------*/
+int Count(PNODE first, PNODE last)
+{
+}
+/*----------------------------------------------------------------------------*/
+int main()
+{
+    PNODE head = NULL;
+    PNODE tail = NULL;
+
+    return 0;
+}
+/*----------------------------------------------------------------------------*/
